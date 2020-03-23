@@ -1,0 +1,119 @@
+
+.r-detail {
+    margin:15rpx 15rpx 126rpx 15rpx;
+    padding:15rpx;
+    box-shadow: 1rpx 2rpx 8rpx  #ddd;
+    border-radius: 15rpx;
+    .r-detail-swiper {
+        image {
+            width:100%;
+            height:100%;
+        }
+    }
+    .r-detail-title {
+        font-size: 34rpx;
+        font-weight: bold;
+        margin:15rpx auto auto auto;
+    }
+    .r-detail-brief {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin:15rpx auto auto auto;
+        .r-detail-brief-item{
+            flex:0 1 auto;
+            flex-direction: column;
+            justify-content:space-between;
+            .r-detail-brief-item-value {
+                color:#F00;
+                font-size: 34rpx;
+            }
+            .r-detail-brief-item-name {
+                color:#666;
+                font-size: 28rpx;
+            }
+        }
+    }
+    .r-detail-infolist {
+        width:100%;
+        margin:15rpx auto auto auto;
+        
+        .r-detail-infolist-item-half,.r-detail-infolist-item {
+            margin:15rpx auto auto auto;
+            width:50%;
+            display: inline-block;
+            .r-detail-infolist-item-name {
+                color:#999;
+                font-size: 28rpx;
+            }
+            .r-detail-infolist-item-value {
+                color:#666;
+                font-size: 28rpx;
+            }
+        }
+        .r-detail-infolist-item {
+            width:100%;
+        }
+    }
+    .r-detail-floorplan{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin:15rpx auto auto auto;
+        .r-detail-floorplan-desc {
+            flex:0 1 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-between;
+            .r-detail-floorplan-desc-title {
+                flex:0 1 auto;
+                color:#666;
+                font-size: 32rpx;
+                font-weight: bold;
+            }
+            .r-detail-floorplan-desc-item {
+                flex:0 1 auto;
+                color:#999;
+                font-size: 28rpx;
+            }
+        }
+        .r-detail-floorplan-image {
+            flex:0 1 auto;
+        }
+    }
+    .r-detail-agent {
+        display: inline-block;
+        .r-detail-agent-desc {
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            .r-detail-agent-desc-avatar {
+                flex:0 1 auto;
+            }
+            .r-detail-agent-desc-names {
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+                flex:0 1 auto;
+                margin-left:10rpx;
+                .r-detail-agent-desc-names-item {
+                    flex:0 1 auto;
+                    .r-detail-agent-desc-names-item-nromalsize{
+                        color:#333;
+                        font-size:28rpx;
+                    }
+                    .r-detail-agent-desc-names-item-smallsize{
+                        color:#999;
+                        font-size:26rpx;
+                    }
+                }
+            }
+        }
+    }
+    .r-detail-desc {
+        font-size: 28rpx;
+        letter-spacing: 5rpx;
+        padding:15rpx;
+        color:#999;
+    }
+}
