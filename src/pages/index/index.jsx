@@ -5,7 +5,7 @@ import { AtDivider,AtCard, AtGrid, AtSearchBar} from 'taro-ui'
 import { add, minus, asyncAdd } from '../../actions/counter'
 import RLists from '../../components/RLists/RLists'
 
-
+//let test = 'MAINPAGENAME'
 
 @connect(({ counter }) => ({
   counter
