@@ -23,7 +23,7 @@ import RLists from '../../components/RLists/RLists'
 class Index extends Component {
 
     config = {
-    navigationBarTitleText: '首页'
+    navigationBarTitleText: 'MAINNAME'
   }
 
   componentWillReceiveProps (nextProps) {

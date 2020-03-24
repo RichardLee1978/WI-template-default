@@ -1,8 +1,8 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "Wxapp-Realty",
+  "projectname": "APPNAME",
   "description": "房地产交易",
-  "appid": "touristappid",
+  "appid": "APPID",
   "setting": {
     "urlCheck": true,
     "es6": false,
