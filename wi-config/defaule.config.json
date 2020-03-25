@@ -1,0 +1,23 @@
+{
+    "path":[
+        {
+            "url":"./src/pages/index/index.jsx",
+            "name":"index"
+        },
+        {
+            "url":"./project.config.json",
+            "name":"app"
+        }
+    ],
+    "vars":{
+        "app":{
+            "APPID":"addadad",
+            "APPNAME":"adadadad"
+        },
+        "index":{
+            "MAINPAGENAME":"安家天下房产"
+        }
+    }
+
+
+}
